@@ -19,4 +19,45 @@ vagrant up
 
 vagrant ssh
 
+S5
+L11
+vagrant ssh
+mkvirtualenv profiles_api --python=python3
+ 
+deactivate
+
+L12
+workon profiles_api
+
+pip install django==1.11
+pip install djangorestframework==3.6.2
+
+L13
+mkdir src
+cd /vagrant/src 
+
+django-admin.py startproject profiles_project
+
+cd profiles_project
+
+python manage.py startapp profiles_api
+
+L14
+profiles_project/profiles_project/settings.py
+INSTALLED_APPS 
+	'rest_framework',
+	'rest_framework.authtoken',
+	'profiles_api',
+
+L15
+workon profiles_api
+
+cd /vagrant
+
+pip freeze 
+pip freeze > requirements.txt 
+
+
+
+
 
