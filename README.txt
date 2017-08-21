@@ -57,6 +57,17 @@ cd /vagrant
 pip freeze 
 pip freeze > requirements.txt 
 
+L16
+vagrant up 
+vagrant ssh 
+workon profiles_api
+
+cd /vagrant/src/profiles_project
+
+python manage.py runserver 0.0.0.0:8080
+
+
+
 
 
 
