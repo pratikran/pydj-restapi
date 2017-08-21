@@ -128,6 +128,30 @@ localhost:8080/admin
 Email: prats@dprats.xyz
 Password: superuser
 
+S8
+L25
+APIViews
+http://www.django-rest-framework.org/api-guide/views/
+
+L26
+https://gist.github.com/LondonAppDev/c422fb5ca84cfc626bd1a5307710840e
+Create an APIView 
+
+L27
+Configure View URL
+https://docs.djangoproject.com/en/1.11/topics/http/urls/
+https://gist.github.com/LondonAppDev/0009a1f158eb6433ba42ac605346d1fa
+
+profiles_project -
+urls.py -
+
+profiles_api -
+urls.py
+
+L28
+Testing API view 
+
+
 
 
 
