@@ -102,6 +102,32 @@ python manage.py makemigrations
 python manage.py migrate
 
 
+S7
+L22
+Adding django admin.
+https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
+
+create superuser 
+python manage.py createsuperuser
+Email: prats@dprats.xyz
+Name: prats ran
+Password: superuser
+
+L23
+Enable Django Admin
+
+profiles_api -
+admin.py -
+
+L24
+Test Django Admin 
+
+python manage.py runserver 0.0.0.0:8080
+
+localhost:8080/admin 
+Email: prats@dprats.xyz
+Password: superuser
+
 
 
 
