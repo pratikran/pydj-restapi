@@ -95,6 +95,12 @@ L20
 settings.py -
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
+L21
+Database Migration 
+
+python manage.py makemigrations
+python manage.py migrate
+
 
 
 

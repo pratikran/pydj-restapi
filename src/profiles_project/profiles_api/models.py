@@ -8,7 +8,7 @@ from django.contrib.auth.models import BaseUserManager
 class UserProfileManager(BaseUserManager):
     """ Helps django work with our custom UserProfile Model """
 	
-    def create_user(self, email, name, password=none):
+    def create_user(self, email, name, password=None):
         """ Creates a new user profile object. """
 
         if not email:
