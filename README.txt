@@ -87,9 +87,13 @@ L19
 https://gist.github.com/LondonAppDev/9e6ba4ea580e5ee4bc3c04d3914c8119
 https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#django.contrib.auth.models.BaseUserManager.normalize_email
 
+User Profile Manager -
+profiles_api -
+models.py  -
 
-
-
+L20
+settings.py -
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
 
 
