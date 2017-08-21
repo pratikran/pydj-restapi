@@ -66,6 +66,31 @@ cd /vagrant/src/profiles_project
 
 python manage.py runserver 0.0.0.0:8080
 
+git status
+git add .
+git commit -am ""
+
+S6
+L17
+https://docs.djangoproject.com/en/1.11/topics/db/models/
+
+L18
+https://gist.github.com/LondonAppDev/01feb984211e1237f81ca3e4bdb1eeb7
+https://docs.djangoproject.com/en/1.11/ref/models/fields/
+https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user
+
+User Profile Model -
+profiles_api -
+models.py  -
+
+L19
+https://gist.github.com/LondonAppDev/9e6ba4ea580e5ee4bc3c04d3914c8119
+https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#django.contrib.auth.models.BaseUserManager.normalize_email
+
+
+
+
+
 
 
 
