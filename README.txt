@@ -221,6 +221,42 @@ localhost:8080/api/
 localhost:8080/api/hello-viewset/
 
 
+S10
+L40
+Profiles API 
+
+L41
+Create user Profile Serializer
+http://www.django-rest-framework.org/api-guide/serializers/#modelserializer
+https://gist.github.com/LondonAppDev/526d70391ba64329ed1782f89875bf84
+
+profiles_api -
+serializers.py -
+UserProfileSerializer
+
+L42
+Create Profiles VIewset
+https://gist.github.com/LondonAppDev/294e9a01f9774435352aafd3697ab541
+
+profiles_api -
+views.py -
+UserProfileViewSet
+
+L43
+Register profile viewset with URL router
+https://gist.github.com/LondonAppDev/79d73f8dee46b1392f0a11236e202725
+
+profiles_api -
+urls.py -
+
+L44
+Test Creating a profile 
+
+
+
+
+
+
 
 
 
