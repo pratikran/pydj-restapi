@@ -183,6 +183,30 @@ L33
 TEST PUT, PATCH, DELETE methods 
 
 
+S9
+L34
+VIEWSet
+-Model Operations for api functions
+
+L35
+Create a Simple ViewSet
+https://gist.github.com/LondonAppDev/778a13391b25098ed249ccc970e93eed
+
+profiles_api -
+views.py -
+
+L36
+Add a URL Router
+https://gist.github.com/LondonAppDev/fcb55671f7fa298d691166106c03164b
+
+profiles_api -
+urls.py -
+
+L37
+Test Viewset
+
+
+
 
 
 
