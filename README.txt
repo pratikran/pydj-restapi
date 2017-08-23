@@ -151,6 +151,40 @@ urls.py
 L28
 Testing API view 
 
+L29
+http://www.django-rest-framework.org/api-guide/serializers/
+http://www.django-rest-framework.org/api-guide/fields/
+https://gist.github.com/LondonAppDev/71931a9a8306e3aa8face1faa6735273
+
+Create a Serializer
+profiles_api -
+serializers.py 
+
+L30
+http://www.django-rest-framework.org/api-guide/status-codes/
+https://gist.github.com/LondonAppDev/1cf65a9b5029510a1b94a12f6edfa5fd
+
+Add POST method to APIView 
+profiles_api -
+views.py -
+
+L31
+Test POST method in API View 
+python manage.py runserver 0.0.0.0:8080
+
+localhost:8080/api/hello-view/
+
+L32
+Add PUT, PATCH, DELETE methods
+profiles_api -
+views.py -
+
+L33
+TEST PUT, PATCH, DELETE methods 
+
+
+
+
 
 
 
