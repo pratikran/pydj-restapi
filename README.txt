@@ -204,6 +204,21 @@ urls.py -
 
 L37
 Test Viewset
+localhost:8080/api/
+
+L38
+Add CREATE, RETRIEVE, UPDATE, PARTIAL_UPDATE AND DESTROY functions to view sets
+https://gist.github.com/LondonAppDev/71cd7309d67ec4ae0706ed287643f532
+
+profiles_api -
+views.py -
+HelloViewSet
+
+L39
+Test ViewSet
+
+localhost:8080/api/
+localhost:8080/api/hello-viewset/
 
 
 
