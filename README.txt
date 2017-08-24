@@ -279,6 +279,29 @@ UserProfileViewSet
 L48
 Test Searching Profiles 
 
+S11
+L49
+Create a Login API ViewSet 
+https://gist.github.com/LondonAppDev/21a592854fbed9a46309aa1450d8308a
+https://gist.github.com/LondonAppDev/321f22d6969426f9eb7153196881accb
+
+profiles_api -
+views.py -
+urls.py -
+
+L50
+Test Login API 
+
+localhost:8080/api/
+localhost:8080/api/login/
+
+L52
+Set Token Header Using ModHeader extension in chrome browser
+
+
+
+
+
 
 
 
