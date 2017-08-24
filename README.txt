@@ -252,6 +252,24 @@ urls.py -
 L44
 Test Creating a profile 
 
+L45
+Create Permission class
+http://www.django-rest-framework.org/api-guide/permissions/
+https://gist.github.com/LondonAppDev/e053bce06a9b3a06dcdc4d158f5b0417
+
+profiles_api -
+permissions.py -
+UpdateUserOwnProfile
+
+L46
+Add Authentication and permissions to viewset 
+https://gist.github.com/LondonAppDev/0af322f8fa7b0c47df8dcbe351a35808
+
+profiles_api -
+views.py -
+UserProfileViewSet
+
+
 
 
 
