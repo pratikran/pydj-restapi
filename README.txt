@@ -378,7 +378,46 @@ UserProfileFeedViewSet
 L63
 Test New Private Feed 
 
-127.0.0.1:8080/api/
+Uncheck Header in ModHeader
+127.0.0.1:8080/api/feed/ 
+
+S13
+L64
+Introduction to deploy our app to AWS
+https://aws.amazon.com/free/
+https://github.com/
+
+L65
+https://github.com/
+
+setup github account/password or ssh key pairs
+setup new githib repository
+on local add remote repo 
+on local push to remote 
+
+L66
+Add Deploy scripts and configs to our project 
+https://uwsgi-docs.readthedocs.io/en/latest/
+https://gist.github.com/LondonAppDev/7090d8097553ab82209adb1809304d0e
+https://gist.github.com/LondonAppDev/4a3dd0dfc7aaa90821309a031abb5022
+https://gist.github.com/LondonAppDev/74e8a37ff1ac8f1afe758ea563c54048
+
+git project -
+add deploy dir 
+
+edit requirements.txt 
+
+deploy\nginx_profiles_api.conf
+deploy\supervisor_profiles_api.conf
+deploy\server_setup.sh
+
+change to Unix(LF) EOL endings
+
+
+
+
+
+
 
 
 
