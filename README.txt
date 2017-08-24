@@ -269,6 +269,15 @@ profiles_api -
 views.py -
 UserProfileViewSet
 
+L47
+Add Search Profile Features
+
+profiles_api -
+views.py -
+UserProfileViewSet
+
+L48
+Test Searching Profiles 
 
 
 
