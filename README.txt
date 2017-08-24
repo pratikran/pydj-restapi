@@ -413,6 +413,36 @@ deploy\server_setup.sh
 
 change to Unix(LF) EOL endings
 
+L67
+Create and Launch an EC2 Instance
+https://aws.amazon.com/console/
+
+L68
+Download and run server setup scripts
+
+login to ubuntu server on AWS 
+
+wget <github_path>/server_setup.sh 
+sudo ./server_setup.sh
+
+L69
+Create superuser and test server
+
+source $VIRTUALENV_BASE_PATH/profiles_api/bin/activate
+cd $PROJECT_BASE_PATH/profiles-rest-api
+cd src/profiles_project
+
+python manage.py migrate 
+python manage.py createsuperuser 
+
+
+L70
+ADD domain to allowed list and push update
+
+settings.py -
+ALLOWED_HOSTS -- add AWS instance domain name 
+
+
 
 
 
