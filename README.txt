@@ -442,6 +442,29 @@ ADD domain to allowed list and push update
 settings.py -
 ALLOWED_HOSTS -- add AWS instance domain name 
 
+git commit 
+git push 
+
+On AWS server -
+git pull 
+
+supervisorctl restart all 
+
+test AWS server in browser 
+
+
+L71
+Test Site on Server
+
+
+S14
+Course Outro
+https://docs.djangoproject.com/en/1.11/
+http://www.django-rest-framework.org/
+
+
+
+
 
 
 
