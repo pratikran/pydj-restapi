@@ -325,9 +325,60 @@ https://gist.github.com/LondonAppDev/225e46e2eaaf6c8e3aef9006540bf8c5
 profiles_api -
 admin.py -
 
+L57
+Create Profile Feed Item Serializer 
+https://gist.github.com/LondonAppDev/555a9a833253a3d41ec5c0eb829a0291
 
+profiles_api -
+serializers.py -
+ProfileFeedItemSerializer
 
+L58
+Create ViewSet for our Profile Feed Item
+https://gist.github.com/LondonAppDev/832577ec1f2db1b467de62ae56d7e87c
+https://gist.github.com/LondonAppDev/95deb8de5a98b9a1def60a1b0cdba46c
 
+profiles_api -
+views.py -
+UserProfileFeedViewSet
+
+urls.py -
+
+L59
+Test Feed API 
+
+L60
+Add Permissions for Feed API
+https://gist.github.com/LondonAppDev/d21e13c5bf62a380ac73989d4dc4da9f
+https://gist.github.com/LondonAppDev/a7e8a47d46263cd0f8b7af95dcfb0b6f
+
+profiles_api -
+permissions.py -
+PostOwnStatus
+
+views.py -
+UserProfileFeedViewSet
+
+L61
+Test Feed API Permissions
+
+127.0.0.1:8080/api/profile/
+127.0.0.1:8080/api/login/
+
+127.0.0.1:8080/api/feed/
+127.0.0.1:8080/api/feed/1/
+
+L62
+Restrict viewing status updates to logged in users
+
+profiles_api -
+views.py -
+UserProfileFeedViewSet
+
+L63
+Test New Private Feed 
+
+127.0.0.1:8080/api/
 
 
 
